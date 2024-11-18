@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useRef } from "react";
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/Navbar";
 import SliderOne from "@/components/ui/slider";
 import { Spotlight } from "@/components/ui/spotlight";
 import Image from "next/image";
