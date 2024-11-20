@@ -4,7 +4,6 @@ import { useState, useRef } from "react";
 import Navbar from "@/components/Navbar";
 import SliderOne from "@/components/ui/slider";
 import { Spotlight } from "@/components/ui/spotlight";
-import Image from "next/image";
 import Link from "next/link";
 
 import WebsiteDesign from "./website-design";
@@ -13,7 +12,7 @@ import ShopifyStores from "./shopify-stores";
 import Brands from "./brands";
 import Services from "./services";
 import FAQS from "./faq";
-import { InfiniteMovingCardsDemo } from "./snippets/infinite-moving-card-snippet";
+import { InfiniteMovingCardsDemo } from "../app/snippets/infinite-moving-card-snippet";
 
 export default function Home() {
   const [isDropdownVisible, setDropdownVisible] = useState(false);
