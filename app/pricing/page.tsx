@@ -1,12 +1,11 @@
 "use client";
 
-import { useState } from "react";
 
 import Link from "next/link";
 
 import { PiCheckCircleFill } from "react-icons/pi";
 
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/Navbar";
 
 const plans = [
   {
